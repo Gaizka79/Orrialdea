@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body class="bodyCont">
+    <header>
+        <ul class="goikoUl">
+            <li class="goikoLi"><a class="goikoLia" href="../index.html">Inicio</a></li>
+            <li class="goikoLi"><a class="goikoLia" href="./biografia.html">Biografía</a></li>
+            <li class="goikoLi"><a class="goikoLia" href="./portfolio.html">Portfolio</a></li>
+            <li class="goikoLi"><a class="goikoLia" href="./contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="izenburuak">
+            <h2><u> Contacto: </u></h2>
+        </div>
+        <section id="contact">
+            <form>
+                <h4>Si quieres ponerte en contacto conmigo, puedes hacerlo a través de esta página.</h4>
+                <label for="fname">Nombre:</label>
+                <input type="texto" id="izena" name="izena" maxlength="15" placeholder="Como te llamas" required>
+                
+                <label for="lname">Apellidos:</label>
+                <input type="texto" id="abizena" name="abizena" maxlength="20" placeholder="Como te apellidas" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Cual es tu email" required>
+
+                
+                <h5>Qué te ha parecido la página??</h5>
+                <div class="check">
+                    <input type="radio" id="exc" name="contact" value="exc">
+                    <label for="glam">Excelente!</label>
+                </div>
+                
+                <div class="check">
+                    <input type="radio" id="ace" name="contact" value="ace">
+                    <label for="grunge">Aceptable</label>
+                </div>
+                
+                <div class="check">
+                    <input type="radio" id="mej" name="contact" value="mej">
+                    <label for="hard">Se puede mejorar</label>
+                </div>
+
+                <div class="check">
+                    <input type="radio" id="mie" name="contact" value="mie">
+                    <label for="hard">Una "&#! &#128169;</label>
+                </div>
+            
+                <h5>Comentarios:</h5>
+                <textarea id="comment" name="comment" rows="10" cols="50" placeholder="Comentarios...."></textarea>
+
+                <div class="check">
+                    <input type="checkbox" id="accept" name="accept" value="">
+                    <label for="accept">Acepto las condiciones de uso</label>
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form> 
+        </section>
+
+        <section class="mapa">
+            <h3><u>Donde estoy:</u></h3>
+            <div class="mapContainer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d79138.28280081533!2d-2.9446210031528146!3d43.3828085463193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1644450735923!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><b>Maitasunez egindakoa!! &#9829;</b></p>
+    </footer>
+</body>
+</html>
